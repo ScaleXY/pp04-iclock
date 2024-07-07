@@ -4,8 +4,60 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ea0cfcb9a08e4656b6c9f23458813f76",
-    "packages": [],
+    "content-hash": "32da3a754286e46dbe60ce85e80bddae",
+    "packages": [
+        {
+            "name": "scalexy/laravel-tools",
+            "version": "v0.0.15",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ScaleXY/pp02-laravel-tools.git",
+                "reference": "0b66b99dc5d6545ef97353765ccda0c7922ffc6f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ScaleXY/pp02-laravel-tools/zipball/0b66b99dc5d6545ef97353765ccda0c7922ffc6f",
+                "reference": "0b66b99dc5d6545ef97353765ccda0c7922ffc6f",
+                "shasum": ""
+            },
+            "require-dev": {
+                "filament/filament": "^3.2",
+                "laravel/framework": "^10.21",
+                "laravel/pint": "^1.16",
+                "spomky-labs/otphp": "^11.2"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "ScaleXY\\Tools\\ScaleXYLaravelToolsServiceProvider"
+                    ],
+                    "aliases": []
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ScaleXY\\Tools\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Athul Raj",
+                    "email": "athul@scalexy.com"
+                }
+            ],
+            "description": "Tools for Laravel",
+            "support": {
+                "issues": "https://github.com/ScaleXY/pp02-laravel-tools/issues",
+                "source": "https://github.com/ScaleXY/pp02-laravel-tools/tree/v0.0.15"
+            },
+            "time": "2024-06-25T09:01:33+00:00"
+        }
+    ],
     "packages-dev": [
         {
             "name": "brick/math",

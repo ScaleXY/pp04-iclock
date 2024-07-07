@@ -27,5 +27,8 @@
 			"aliases": {
 			}
 		}
-	}
+	},
+    "require": {
+        "scalexy/laravel-tools": "^0.0.15"
+    }
 }
