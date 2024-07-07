@@ -1,0 +1,31 @@
+{
+    "name": "scalexy/iclock",
+    "description": "iClock",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "ScaleXY\\iClock\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Athul Raj",
+            "email": "athul@scalexy.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+        "laravel/framework": "^10.21",
+        "laravel/pint": "^1.16"
+    },
+	"extra": {
+		"laravel": {
+			"providers": [
+				"ScaleXY\\Tools\\ScaleXYLaravelToolsServiceProvider"
+			],
+			"aliases": {
+			}
+		}
+	}
+}
